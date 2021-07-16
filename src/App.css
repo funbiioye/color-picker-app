@@ -1,154 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; overflow: scroll;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
 .App {
   text-align: center;
 }
 
-/* welcome styling */
-
-.welcome-container-div{
-  margin-top: 20px;
-}
-
-.welcome-div{
-  background-color: black;
-  max-height: 100%;
-  height: 120px;
+.header{
+  background-color: #000000;
   width: 100%;
-  font-size: 30px;
-  padding-bottom: 4.2rem;
- 
+  height: 203px;
 }
 
-.welcome-label{
-  font-weight: 700;
-  margin-top: 0;
-  color: white;
-  font-size: 25px;
-
+.header h2 {
+  color: #ffffff;
 }
 
-.add-colour-div{
-  font-size: 30px;
-  font-weight: 700;
-  margin-top: 1rem;
-  
-}
-
-.select-colour{
-  margin-top: 15px;
-  font-size: 25px;
-  font-weight: 700;
-}
-
-.label-colour{
-  display:block;
-  padding: 0.5rem;
-}
-
-/* color picker styling */
-
-.picker-container{
-  background-image: linear-gradient(red,yellow,green);
-  display: block;
+.addcolor{
   height: 100vh;
-  
-  
+  background: linear-gradient(red,#ff0,green);
+  top: 0;
+  bottom: 0;
+  padding-top: 10%;
 }
 
-.enter-colour-div{
-  display: inline-flex;
-  margin-top: 12rem; 
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.pick-colour-div{
-  display: inline-flex;
-  margin-top: 1.5rem;
-  font-size: 20px;
-  font-weight: 500;
-
-}
-
-.colour-input{
-  width: 270px;
-  height: 35px;
-  margin-left: 15px ;
-  padding-left: 30px;
-  border-radius: 5px;
-}
-
-.color-btn{
-  padding: 5px;
-  margin-top: 1.5rem;
-  color: white;
-  background-color: blue;
-  width: 130px;
-  height: 50px;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.picker-home{
+.select a{
   color: blue;
-  display: inline-block;
-  margin-top: 3rem;
+}
+
+.colorname label, .color label{
   font-size: 20px;
-  font-weight: 500;
+  color: #000;
+  font-weight: bold;
+  margin-right: 20px;
+} 
+
+.colorname input, .color input{
+  width: 250px;
+  height: 35px;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 1px 2px;
 }
 
-/* red styling */
+.addbtn {
+  background-color: #0000ff;
+  color: #fff;
+  height: 40px;
+  width: 130px;
+  border: 1px solid #0000ff;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: -14px;
+  margin-bottom: 30px;
+}
 
-.red-div{
-  background-color: red;
+.return{
+  text-align: center;
+  margin-top: 70px;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.addcolor h3{
+  color: rgb(85, 26, 139);
+}
+
+.red{
+  background-color: #ff0000;
   height: 100vh;
-  margin-top: 1.4rem;
 }
 
-.red-par{
-  font-size: 32px;
-  font-weight: 700;
-}
-
-.red-home-div{
-  font-size: 32px;
-  font-weight: 700;
-  margin-top: 1.2rem;
-}
-
-/* green styling */
-
-.green-div{
-  background-color: green;
+.container {
   height: 100vh;
-  margin-top: 1.4rem;
-}
-
-.green-par{
-  font-size: 32px;
-  font-weight: 700;
-}
-
-.green-home-div{
-  font-size: 32px;
-  font-weight: 700;
-  margin-top: 1.2rem;
-}
-
-/* blue styling */
-
-.blue-div{
-  background-color: blue;
-  height: 100vh;
-  margin-top: 1.4rem;
-}
-
-.blue-par{
-  font-size: 32px;
-  font-weight: 700;
-}
-
-.blue-home-div{
-  font-size: 32px;
-  font-weight: 700;
-  margin-top: 1.2rem;
 }
